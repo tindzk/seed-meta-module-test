@@ -1,0 +1,43 @@
+{
+    "version" : "1.1.2",
+    "project" : {
+        "name" : "example",
+        "directory" : "/tmp/seed5914869004862019273/meta-module",
+        "workspaceDir" : "/tmp/seed5914869004862019273/meta-module",
+        "sources" : [
+        ],
+        "dependencies" : [
+            "example-jvm",
+            "example-js"
+        ],
+        "classpath" : [
+        ],
+        "out" : "/tmp/seed5914869004862019273/meta-module/build/bloop",
+        "classesDir" : "/tmp/seed5914869004862019273/meta-module/build/bloop",
+        "resources" : [
+        ],
+        "java" : {
+            "options" : [
+            ]
+        },
+        "sbt" : {
+            "sbtVersion" : "",
+            "autoImports" : [
+            ]
+        },
+        "test" : {
+            "frameworks" : [
+            ],
+            "options" : {
+                "excludes" : [
+                ],
+                "arguments" : [
+                ]
+            }
+        },
+        "resolution" : {
+            "modules" : [
+            ]
+        }
+    }
+}

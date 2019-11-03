@@ -1,0 +1,116 @@
+{
+    "version" : "1.1.2",
+    "project" : {
+        "name" : "example-js",
+        "directory" : "/tmp/seed5914869004862019273/meta-module",
+        "workspaceDir" : "/tmp/seed5914869004862019273/meta-module",
+        "sources" : [
+            "/tmp/seed5914869004862019273/meta-module/src"
+        ],
+        "dependencies" : [
+        ],
+        "classpath" : [
+            "/home/tim/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-library_2.12/0.6.26/scalajs-library_2.12-0.6.26.jar",
+            "/home/tim/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar",
+            "/home/tim/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8.jar"
+        ],
+        "out" : "/tmp/seed5914869004862019273/meta-module/build/bloop/example-js",
+        "classesDir" : "/tmp/seed5914869004862019273/meta-module/build/bloop/example-js",
+        "resources" : [
+        ],
+        "scala" : {
+            "organization" : "org.scala-lang",
+            "name" : "scala-compiler",
+            "version" : "2.12.8",
+            "options" : [
+                "-Xplugin:/home/tim/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.12.8/0.6.26/scalajs-compiler_2.12.8-0.6.26.jar"
+            ],
+            "jars" : [
+                "/home/tim/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.jar",
+                "/home/tim/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.8/scala-compiler-2.12.8.jar",
+                "/home/tim/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar",
+                "/home/tim/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8.jar"
+            ],
+            "analysis" : "/tmp/seed5914869004862019273/meta-module/build/bloop/example-js/analysis.bin",
+            "setup" : {
+                "order" : "mixed",
+                "addLibraryToBootClasspath" : true,
+                "addCompilerToClasspath" : false,
+                "addExtraJarsToClasspath" : false,
+                "manageBootClasspath" : true,
+                "filterLibraryFromClasspath" : true
+            }
+        },
+        "java" : {
+            "options" : [
+            ]
+        },
+        "sbt" : {
+            "sbtVersion" : "",
+            "autoImports" : [
+            ]
+        },
+        "test" : {
+            "frameworks" : [
+            ],
+            "options" : {
+                "excludes" : [
+                ],
+                "arguments" : [
+                ]
+            }
+        },
+        "platform" : {
+            "name" : "js",
+            "config" : {
+                "version" : "0.6",
+                "mode" : "debug",
+                "kind" : "none",
+                "emitSourceMaps" : true,
+                "jsdom" : false,
+                "output" : "/tmp/seed5914869004862019273/meta-module/build/example.js",
+                "toolchain" : [
+                ]
+            },
+            "mainClass" : [
+            ]
+        },
+        "resolution" : {
+            "modules" : [
+                {
+                    "organization" : "org.scala-lang",
+                    "name" : "scala-reflect",
+                    "version" : "2.12.8",
+                    "artifacts" : [
+                        {
+                            "name" : "scala-reflect",
+                            "path" : "/home/tim/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-lang",
+                    "name" : "scala-library",
+                    "version" : "2.12.8",
+                    "artifacts" : [
+                        {
+                            "name" : "scala-library",
+                            "path" : "/home/tim/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-js",
+                    "name" : "scalajs-library",
+                    "version" : "0.6.26",
+                    "artifacts" : [
+                        {
+                            "name" : "scalajs-library",
+                            "path" : "/home/tim/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-library_2.12/0.6.26/scalajs-library_2.12-0.6.26.jar"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
